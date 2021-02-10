@@ -1,0 +1,138 @@
+.app-sidebar__user-avatar {
+    width: 50px;
+}
+
+.headerRegister,
+.header-primary {
+    background: #009688;
+    color: #FFF;
+}
+
+.headerUpdate {
+    background: #007bff;
+    color: #FFF;
+}
+
+.notBlock {
+    display: none;
+}
+
+.required {
+    color: red;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#divLoading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(254, 254, 255, .65);
+    z-index: 9999;
+    display: none;
+}
+
+#divLoading img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* juegos */
+
+#myCanvas {
+    background: #eee;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+
+
+/*upload fotos*/
+
+#containerImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divAvatar {
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.prevImage {
+    border: 1px solid #CCC;
+    width: 120px;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prevImage img {
+    width: 100%;
+}
+
+.inputUploadfile {
+    display: none;
+}
+
+.btnUploadfile,
+.btnDeleteImage {
+    border: 0;
+    background-color: #009688;
+    text-align: center;
+    padding: 2px 3px;
+    color: #FFF;
+    font-size: 9px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btnDeleteImage {
+    background-color: #dc3545;
+}
+
+#tableLider th,
+#tableLider td {
+    max-width: 100px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#tableSolicitudes th,
+#tableSolicitudes td {
+    max-width: 200px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.elipsis {
+    max-width: 100px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.daterangeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.daterangelb {
+    padding-right: 5px;
+    padding-top: 7.5px;
+}

@@ -1,0 +1,145 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: stretch;
+    align-items: center;
+}
+
+.flex-item:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.tit-solicitudes {
+    margin-right: 20px;
+}
+
+#services {
+    padding-top: 10px;
+}
+
+#tableSolicitudes {
+    margin-top: 25px;
+    margin-bottom: 100px;
+    font-size: 11px;
+}
+
+#tableSolicitudes thead {
+    background-color: #7DA626;
+    color: #FFF;
+}
+
+.page-link {
+    text-decoration: none;
+    color: #212529;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #7DA626;
+    border-color: #7DA626;
+}
+
+.headerSolicitud {
+    background: #159E34;
+    color: #FFF;
+}
+
+.modal-title.view {
+    color: #FFF;
+}
+
+.headerEditSolicitud {
+    background: #BFF205;
+    color: #428C3B;
+}
+
+.btn-danger {
+    text-decoration: none;
+}
+
+.btn-solicitud {
+    color: #FFF;
+    background: #159E34;
+}
+
+.btn-solicitudEdit {
+    color: #428C3B;
+    background: #BFF205;
+}
+
+.btn-solicitud:hover {
+    color: #FFF;
+    background: #0F7527;
+}
+
+.contenedorOptions {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorOptions:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.contenedorOptions:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.contenedorOptions:nth-child(3) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.contenedorOptions:nth-child(4) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.meGustaSol {
+    font-size: 1.25em;
+    transition: 0.5s;
+}
+
+.noMeGustaSol {
+    font-size: 1.25em;
+    transition: 0.5s;
+}
+
+.meGustaSol:hover {
+    font-size: 1.4em;
+}
+
+.noMeGustaSol:hover {
+    font-size: 1.4em;
+}
+
+.meGustaSol.valoracionActiva {
+    color: #28a745;
+    font-size: 1.5em;
+}
+
+.noMeGustaSol.valoracionActiva {
+    color: #dc3545;
+    font-size: 1.5em;
+}
